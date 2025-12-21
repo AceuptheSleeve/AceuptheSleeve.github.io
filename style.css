@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+
+
+p {
+    text-align: right;
+    font-size: large;
+}
+
+h1 {
+    text-align: left;    
+}
+
+.textbox {
+    max-width: 40%;
+    text-align: left;   
+}
+
+/*@font-face {
+    font-family: customfont;
+    src: url("assets/metropolis.regular.otf");
+}
