@@ -1,2 +1,1 @@
-layout: forward
-target: contact.html
+If you are seeing this page, click [here](home.html) to go to the homepage.
