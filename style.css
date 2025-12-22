@@ -1,23 +1,44 @@
 body {
-    background-color: grey;
+    background: #192B50;
+    background: conic-gradient(from 45deg, #192B50, #252941);
+    color: white;
+    font-family: myFont;
 }
 
+nav {
+    font-family: inherit;
+}
 
 p {
     text-align: right;
     font-size: large;
+    font-family: inherit;
 }
 
-h1 {
-    text-align: left;    
+.centerbox{
+    padding-top: 13%;
+    text-decoration: solid;
+    text-align: center;
+    font-size: 225%;
+    font-family: inherit;
 }
 
-.textbox {
-    max-width: 40%;
-    text-align: left;   
+button{
+    color: inherit;
+    font-family: inherit;
+    text-decoration: solid;
+    text-align: center;
+    background: transparent;
+    font-size: 75%;
 }
 
-/*@font-face {
-    font-family: customfont;
+button:hover {
+    opacity: 60%;
+}
+
+
+
+@font-face {
+    font-family: myFont;
     src: url("assets/metropolis.regular.otf");
 }
