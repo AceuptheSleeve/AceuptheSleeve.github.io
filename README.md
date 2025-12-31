@@ -1,1 +1,1 @@
-If you are seeing this page, click [here](home.html) to go to the homepage.
+This is my software engineer portfolio website
