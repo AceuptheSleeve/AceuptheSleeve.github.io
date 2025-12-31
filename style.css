@@ -3,40 +3,66 @@ body {
     background: conic-gradient(from 45deg, #192B50, #252941);
     color: white;
     font-family: myFont;
-}
-
-nav {
-    font-family: inherit;
+    font-size: large;
 }
 
 p {
-    text-align: right;
-    font-size: large;
-    font-family: inherit;
+    font-size: 1.25em;
 }
 
-.centerbox{
-    padding-top: 13%;
+.headline{
+    padding-top: 10%;
     text-decoration: solid;
     text-align: center;
-    font-size: 225%;
-    font-family: inherit;
+    font-size: 2.0em;
 }
 
-button{
-    color: inherit;
-    font-family: inherit;
+footer{
+    font-size: 1.5em;
+}
+
+nav img {
+    float: right;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+}
+
+nav a:hover {
+    opacity: 75%;
+}
+
+.projectList {
     text-decoration: solid;
+    text-align: left;
+    background-color: hsla(215, 100%, 87%, 0.034);
+    font-size: 1.4em;
+    width: auto;
+}
+
+.projectList a {
+    color: teal;
+}
+
+.projectList a:hover {
+    opacity: 75%;
+}
+
+.projectList p {
+    max-width: 55%;
+}
+
+#bubbleTag {
     text-align: center;
-    background: transparent;
-    font-size: 75%;
+    background-color: skyblue;
+    border-radius: 10%;
+    border-color: whitesmoke;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
 }
 
-button:hover {
-    opacity: 60%;
+#projectTitle {
+    font-size: 1.275em;
 }
-
-
 
 @font-face {
     font-family: myFont;
