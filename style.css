@@ -52,6 +52,11 @@ a:visited
     background-color: hsla(215, 100%, 87%, 0.034);
     font-size: 1.4em;
     width: auto;
+    line-height: 160%;
+}
+
+hr {
+    color: hsla(0, 0%, 100%, 0.544);
 }
 
 .projectList p {
